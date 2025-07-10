@@ -1,0 +1,16 @@
+.list_prop{
+    margin-top: 6rem;
+}
+
+.list_prop > h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#rent{
+    margin-left: 0;
+    color: var(--green);
+    font-size: 30px;
+    font-weight: bold;
+}

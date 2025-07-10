@@ -1,0 +1,36 @@
+.footer{
+    color: white;
+    width : 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap : 1.5rem;
+    padding:2rem;
+    margin-top:2rem;
+}
+
+.footer>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer>div>p{
+    margin: 0.5rem;
+}
+
+.socials{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.subs{
+   display: flex;
+   margin-top: 1rem;
+}
+
+.subs>input{
+    flex : 2;
+    margin-right: 1rem;
+}
+

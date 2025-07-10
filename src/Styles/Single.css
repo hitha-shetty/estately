@@ -1,0 +1,113 @@
+.single-p{
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-p>h2{
+    color : grey;
+}
+
+.img-flex{
+    margin-top: 2rem;
+    display: flex;
+    gap : 2rem;
+    align-items: flex-start;
+}
+
+.img-flex > img{
+    width: 60%;
+    height : 400px
+}
+
+#des{
+    margin-top: 1rem;
+    color:grey;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 4px solid var(--green);
+    display: inline-block;
+    text-align: center;
+}
+
+#para{
+  text-align: justify;
+}
+
+.desc>p{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: gray;
+}
+
+#contact{
+    margin-top: 1rem;
+    background-color: var(--green);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 15px ;
+    display: block;
+}
+
+.emi-calc{
+    padding:0.2rem;
+    border-bottom: 1px grey solid;
+}
+
+#over{
+    display: inline;
+    margin-top: 1rem;
+    color:grey;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 4px solid var(--green);
+    text-align: center;
+}
+
+.overview{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap : 2rem;
+    justify-content: center;
+}
+
+.overview > span{
+    font-size: 15px;
+    color: black;
+    margin: 1rem;
+    flex : 3
+}
+
+.overview2{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    gap : 2rem;
+    justify-content: center;
+}
+
+.overview2 > span{
+    font-size: 15px;
+    color: black;
+    margin: 1rem;
+    flex : 3
+}
+
+.over-heading{
+    margin-top: 2rem;
+    color: rgb(73, 70, 70);
+    font-size: 25px;
+    border-bottom: 4px solid var(--green);
+    display: inline;
+}
+
+
+
+

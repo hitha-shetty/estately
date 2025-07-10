@@ -1,0 +1,32 @@
+.emi_container{
+    margin-top: 4rem;
+    display: flex;
+}
+
+.gif{
+   flex : 1;
+}
+.gif > img{
+    object-fit: contain;
+}
+
+.emi_calc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    gap : 1rem;
+}
+
+.emi_calc > h2{
+    margin-top: 3rem;
+    color: rgb(5, 5, 92)
+}
+
+.worth{
+    margin-top: 2rem;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+

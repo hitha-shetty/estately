@@ -1,0 +1,50 @@
+nav{
+    height: 5rem;
+    background-color: var(--green3);
+}
+
+.h3{
+    font-weight: 500;
+    cursor: pointer
+}
+
+.h3:hover{
+    border-bottom : solid white 1px;
+}
+
+.crown{
+    height: 1.5rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.silver-button {
+    background: linear-gradient(90deg, #666464, #7e7c7c, #918d8d);
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 20s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-size: 200% 200%;
+    animation: shine 20s linear infinite;
+  }
+  
+  .silver-button:hover {
+    background-position: 100% 0;
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
