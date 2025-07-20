@@ -91,7 +91,9 @@
       "status": "Ready to move",
       "age": "2",
       "img": "/properties/indiranagar/img1.jpg",
-      "id": "808e"
+      "id": "808e",
+      "lat": 12.965043, 
+      "lng":77.639900
     },
     {
       "pID": 2,

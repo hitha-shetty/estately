@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router';
+import { useEffect, useState } from 'react';
+import { useParams} from 'react-router';
 import axios from 'axios';
 import '../Styles/Single.css';
 import { BsCake2 } from "react-icons/bs";
@@ -11,8 +11,7 @@ function SingleTwo() {
   const { id } = useParams(); 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true); 
-  const [error, setError] = useState(null);
-  const navigate = useNavigate(); 
+  const[error, setError] = useState(null);
 
   useEffect(() => {
     axios.get('http://localhost:5000/rent')
