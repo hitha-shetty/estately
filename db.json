@@ -529,5 +529,59 @@
       "img": "/rent/yeshwanthpur/img4.jpg",
       "id": "3aa2"
     }
+  ],
+  "filters": [
+    {
+      "id": "1",
+      "data": "Covered area"
+    },
+    {
+      "id": "2",
+      "data": "Possession Status"
+    },
+    {
+      "id": "3",
+      "data": "Sub Property Type"
+    },
+    {
+      "id": "4",
+      "data": "Sale Type"
+    },
+    {
+      "id": "5",
+      "data": "Posted Since"
+    },
+    {
+      "id": "6",
+      "data": "Posted By"
+    },
+    {
+      "id": "7",
+      "data": "Ownership"
+    },
+    {
+      "id": "8",
+      "data": "Furnishing"
+    },
+    {
+      "id": "9",
+      "data": "Amenities"
+    },
+    {
+      "id": "10",
+      "data": "Verified Properties"
+    },
+    {
+      "id": "11",
+      "data": "Photos and Videos"
+    },
+    {
+      "id": "12",
+      "data": "Facing"
+    },
+    {
+      "id": "13",
+      "data":"Bathroom"
+    }
   ]
 }

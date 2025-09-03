@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    filteredList : []
+    filteredList : [],
+    activeFilter : '',
 }
 
 const EstatelyReducer = createSlice({
@@ -10,10 +11,13 @@ const EstatelyReducer = createSlice({
     reducers : {
 
        filteredList : (state,action)=>{
-             state.filteredList = action.payload
-        }
+            state.filteredList = action.payload
+       },
+       activeFilter : (state,action) =>{
+            state.activeFilter = action.payload
+       }
     }
 })
 
 export default EstatelyReducer.reducer
-export const {filteredList} = EstatelyReducer.actions
+export const {filteredList, activeFilter} = EstatelyReducer.actions

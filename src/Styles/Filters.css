@@ -1,0 +1,14 @@
+.filter-tab{
+    height:50px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-tab:hover{
+    color: grey
+}
+
+.active{
+    color : #07af3f !important;
+}
